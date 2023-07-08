@@ -1,0 +1,18 @@
+<%- include('partial/header'); -%>
+    <h2>Home</h2>
+
+<p><%=info%></p>
+
+    <% arr.forEach(function(item){ %>
+        <h2><%=item.name%></h2>
+        <% console.log(item.content);%>
+        <p><%=item.content.substring(0,100)+"..."%><a href="/posts/<%=item.name%>">Read_More</a></p>
+    <%});%>
+
+    
+
+ 
+
+
+
+<%- include('partial/footer'); -%>

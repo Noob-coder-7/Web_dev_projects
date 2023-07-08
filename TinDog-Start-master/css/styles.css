@@ -1,0 +1,166 @@
+#title{
+    background-color: #ff4c68;
+}
+.fluid-container{
+    padding: 3% 15% 7%;
+}
+.nav-link{
+    margin-right: 50px;
+}
+h1{
+   
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-top: 100px;
+    
+}
+i{
+    margin: 2px;
+}
+body{
+    font-family:'Montserrat';
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight:bold;
+    font-family:'Ubuntu';
+}
+.baby{
+    margin-top: 40px;
+    
+}
+.rotate{
+    transform: rotate(25deg);
+    position: absolute;
+  
+   
+}
+#features{
+    height: 400px;
+   padding-top: 90px;
+    position: relative;
+    
+    background-color: #ffff;
+}
+.sheela{
+    
+    font-size: 1.5rem;
+}
+.tarif{
+    color: #8f8f8f;
+    font-family: 'Montserrat-Bold';
+    padding: 0px 120px;
+    
+}
+
+.gf{
+    height: 32px;
+}
+.fa-4x{
+    color: #ef8172;
+    margin-bottom: 22px;
+}
+
+.col-lg-4{
+    text-align: center;
+    
+}
+
+#testimonials{
+    padding: 7% 1%;
+    text-align: center;
+     color: white;
+    font-family:'Montserrat:wght@700';
+    background-color: #ef8172;
+}
+.testimonial-image{
+    margin-top:2.5%;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+em{
+    margin-left: 16px;
+}
+
+#press{
+ background-color:#ef8172;
+ text-align: center;
+ padding-bottom: 32px;
+
+
+
+}
+.new{
+    width:15%;
+    height: 15%;
+    margin:  50px 16px;
+}
+.testimonial-text{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+#pricing{
+    padding: 100px 32px 50px 32px;
+}
+.pricing-text{
+    margin-bottom: 32px;
+}
+.fa-brands{
+    margin-right:6px;
+}
+#cta{
+    background-color: #ff4c68;
+    height: 300px;
+    text-align: center;
+    padding: 60px 60px;
+}
+@media (max-width:992px) {
+    .rotate{
+        position: static;
+        transform: rotate(0);
+    }
+#title{
+    text-align: center;
+}
+.baby {
+    margin: 40px 0px;
+}
+#features{
+    height: 600px;
+    padding-top: 45px;
+}
+}
+.cta-text{
+     font-size: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#footer{
+    background-color: #ffff;
+}
+
+.copyright{
+    color: gray;
+}
+#footer{
+    padding: 100px;
+    text-align: center;
+}
+.footer-icon{
+margin-bottom:43px;
+color:black;
+
+
+}@media(min-width:992px) and (max-width:1099px){
+    .baby{
+        margin: 0px 0px;
+    }
+}
