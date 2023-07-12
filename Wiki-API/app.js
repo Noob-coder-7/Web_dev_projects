@@ -81,16 +81,16 @@ app.route("/articles")
    .catch(function(err){
     res.send(err);
    })
-});
-// .patch(function(req,res){
-//     Article.updateOne({title:req.params.articleTitle},{$set:req.body}).then(function(){
-//         res.send("Successfully updated");
-//     })
-//     .catch(function(err){
-//         res.send(err);
-//     });
+})
+.patch(function(req,res){
+    Article.updateOne({title:req.params.articleTitle},{$set:req.body}).then(function(){
+        res.send("Successfully updated");
+    })
+    .catch(function(err){
+        res.send(err);
+    });
     
-// });
+});
     
 // app.get("/articles",);
 
